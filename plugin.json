@@ -1,0 +1,18 @@
+{
+    "id": "github",
+    "name": "GitHub",
+    "version": "0.1.0",
+    "description": "Paste GitHub links with their titles, pin file links to a commit, and paste copied code with a link back to its lines",
+    "author": "georgemandis",
+    "type": "script",
+    "platforms": ["macos", "linux", "windows"],
+    "entry": "index.js",
+    "network": ["api.github.com"],
+    "modes": [
+        { "id": "reference", "label": "Titled reference", "default": true },
+        { "id": "details", "label": "Details" },
+        { "id": "permalink", "label": "Permanent link" },
+        { "id": "code", "label": "Code with link" }
+    ],
+    "config": {}
+}
